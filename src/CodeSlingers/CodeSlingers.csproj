@@ -139,6 +139,9 @@
     <Content Include="Images\aboutus\sushi-3.png" />
     <Content Include="Images\bg.png" />
     <Content Include="Images\boatlady.png" />
+    <Content Include="Images\connect-background.png" />
+    <Content Include="Images\feature-link-bullet.png" />
+    <Content Include="Images\featured-roll.png" />
     <Content Include="Images\header-bg.png" />
     <Content Include="Images\header-logo.png" />
     <Content Include="Images\home-hightlights-bg.png" />
@@ -151,6 +154,7 @@
     <Content Include="Images\sassycouple.png" />
     <Content Include="Images\sushipr0n.png" />
     <Content Include="Js\aboutUs.js" />
+    <Content Include="Js\externals\bootstrap.scrollspy.js" />
     <Content Include="Js\externals\colorbox\colorbox.css" />
     <Content Include="Js\externals\colorbox\images\border1.png" />
     <Content Include="Js\externals\colorbox\images\border2.png" />
