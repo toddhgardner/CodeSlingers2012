@@ -152,6 +152,7 @@
     <Content Include="Images\sassycouple.png" />
     <Content Include="Images\sushipr0n.png" />
     <Content Include="Js\aboutUs.js" />
+    <Content Include="Js\externals\bootstrap.scrollspy.js" />
     <Content Include="Js\externals\colorbox\colorbox.css" />
     <Content Include="Js\externals\colorbox\images\border1.png" />
     <Content Include="Js\externals\colorbox\images\border2.png" />
@@ -166,6 +167,7 @@
     <Content Include="Js\externals\colorbox\images\loading.gif" />
     <Content Include="Js\externals\colorbox\jquery.colorbox.js" />
     <Content Include="Js\externals\jquery.js" />
+    <Content Include="Js\externals\moment.min.js" />
     <Content Include="Js\externals\skrollr.js" />
     <Content Include="Js\externals\slides.jquery.js" />
     <Content Include="Js\maps.js" />
