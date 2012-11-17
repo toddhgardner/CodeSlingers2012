@@ -24,7 +24,7 @@
         <script type="text/javascript" src="~/js/footer.js"></script>
 		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navigation" data-offset="70">
         <div id="wrap">
             <div id="content">
                 @Html.Partial("Partials/Header")
@@ -40,8 +40,22 @@
     </body>
 
 	<script type="text/javascript">
-		window.rootUrl = "@Url.Content("~/")";
+	    window.rootUrl = "@Url.Content("~/")";
 	</script>
 
     <script type="text/javascript" src="~/js/externals/skrollr.js"></script>
+    <script type="text/javascript" src="~/js/externals/bootstrap.scrollspy.js"></script>
+    
+    <script type="text/javascript">
+        $(function() {
+            $('.navigation').scrollspy();
+            var offset = 70;
+
+            $('.navigation ul.nav li a').click(function (event) {
+                event.preventDefault();
+                $($(this).attr('href'))[0].scrollIntoView();
+                scrollBy(0, -offset);
+            });
+        });
+    </script>
 </html>

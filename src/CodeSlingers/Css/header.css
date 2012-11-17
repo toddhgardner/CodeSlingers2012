@@ -4,6 +4,6 @@
 #header .navigation ul { margin: 0;padding: 0;}
 #header .navigation ul li { list-style-type: none;display: inline-block;margin: 22px 26px;}
 #header .navigation ul li.loc-nav { margin-left: 342px;}
-#header .navigation ul li a { color: #FFF;font-family: 'BebasNeueRegular';text-decoration: none;font-size: 22px;}
-#header .navigation ul li a.current { color: #FFCCCC;}
+#header .navigation ul li a {outline: none; color: #FFF;font-family: 'BebasNeueRegular';text-decoration: none;font-size: 22px;}
+#header .navigation ul li.active a { color: #FFCCCC;}
 

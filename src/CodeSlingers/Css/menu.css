@@ -1,5 +1,4 @@
 ﻿#menu {
-    margin-top: -20px;
     max-width: 1400px;
     min-width: 960px;
     height:718px;
@@ -64,6 +63,10 @@
     list-style:none;
     margin: 0;
     padding: 0;
+}
+
+.menu-items #menu-page-7 h3 {
+    margin-top: 18px;
 }
 
 .menu-items .col {
