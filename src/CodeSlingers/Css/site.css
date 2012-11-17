@@ -36,6 +36,5 @@
 body { background: url('../Images/bg.png') repeat-y 50% 0 fixed; text-align: center; }
 #wrap { max-width: 1400px;margin: auto;text-align: left;background-color: #fff;}
 .page {
-    width: 1400px; 
     margin:0 auto;
 }

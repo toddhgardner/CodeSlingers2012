@@ -6,7 +6,6 @@
 }
 #menu-inner {
     width: 960px;
-    height:718px;
     margin: 0 auto 0;
 }
 
@@ -48,14 +47,41 @@
     color: #ffffff;
 }
 
-#menu-left {
-    position: relative;
-    right: -20px;
-    top: -369px;
+.menu-items {
+    width:960px;
+    height:270px;
+    margin: 0 auto 0;
 }
 
-#menu-right {
+.menu-items div {
+    width:960px;
+    height:270px;
+    display:block;
+}
+
+#menu-controls {
+    
+    min-width: 960px;
+}
+
+.menu-right {
+    color: transparent;
+   
+    height: 43px;
+    width: 43px;
+    background: url('../Images/menu-rightarrow.png');
     position: relative;
     left: 1285px;
-    top: -369px;
+    top: 0;
+}
+
+.menu-left {
+    color: transparent;
+    
+    height: 43px;
+    width: 43px;
+    background: url('../Images/menu-leftarrow.png');
+    position: relative;
+    right: -20px;
+    top: 0;
 }
