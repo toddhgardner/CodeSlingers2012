@@ -13,11 +13,11 @@
     z-index: 1000;
 }
 #home .highlights .content {width: 960px;margin: 0 auto;}
-#home .highlights .content .logo {margin-top: -355px;float:left;}
+#home .highlights .content .logo {margin-top: -408px;float:left;}
 #home .highlights .content ul {margin: 0;padding: 0;list-style-type: none;z-index: 1002}
 #home .highlights .content ul li { float: left;width: 310px;margin-right: 10px;}
 #home .highlights .content ul li img { float: left;margin: -38px 0 0 -25px;}
-#home .highlights .content ul li p { float: left;width: 275px;font-family: 'OpenSansBold';color: #FFF;margin: 0 0 4px;}
+#home .highlights .content ul li p {float: left;width: 275px;font-family: 'OpenSansBold';color: #FFF;margin: 0 4px 4px;}
 #home .highlights .content ul li.featured p{ width: 180px;}
 #home .highlights .content ul li a,
 #home .highlights .content ul li a:active { color: #ef3b3b;text-decoration: none;font-family: 'OpenSansBold';}
