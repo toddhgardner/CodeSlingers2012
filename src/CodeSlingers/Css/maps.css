@@ -3,6 +3,36 @@
     height: 700px;
 }
 
-.map-info-window .title {
+#maps .map-container 
+{
+	position:relative;
+}
+
+#maps .map-overlay 
+{
+	background-image: url("../images/map-overlay.png");
+	position:absolute;
+	height:100%;
+	width:329px;
+	top: 0px;
+	right: 200px;
+}
+
+#maps .address {
+	text-align:center;
+	position:absolute;
+	right: 242px;
+	width:250px;
+}
+
+#maps .mpls-overlay {
+	top: 200px;
+}
+
+#maps .paul-overlay {
+	top: 450px;
+}
+
+#maps .map-info-window .title {
 	font-weight:bold;
 }
