@@ -15,10 +15,11 @@
     width:533px;
     height:437px;
     position:absolute;
-    top:2711px;
+    top:-45px;
     z-index:1;
-    left:0px;
+    left:-221px;
     background: url(../images/jobs/jobs-painting-1.png) no-repeat transparent;
+    
 }
 #jobs .picture2 {
     width:598px;
@@ -32,7 +33,7 @@
 
 #jobs .circle {
     position:absolute;
-    left:500px;
+    left:518px;
     top:75px;
     width:534px;
     height:534px;
