@@ -14,8 +14,9 @@
 }
 #home .highlights .content {width: 960px;margin: 0 auto;}
 #home .highlights .content .logo {margin-top: -355px;float:left;}
-#home .highlights .content ul {padding: 0;list-style-type: none;z-index: 1002}
+#home .highlights .content ul {margin: 0;padding: 0;list-style-type: none;z-index: 1002}
 #home .highlights .content ul li { float: left;width: 275px;}
-#home .highlights .content ul li h3 { font-family: 'PacificoRegular'; color:#FFF}
+#home .highlights .content ul li p { float: left;width: 275px;font-family: 'OpenSansBold';color: #FFF;}
+#home .highlights .content ul li h3 {margin: 0; font-family: 'PacificoRegular';color: #FFF;font-size: 32px;}
 #home .slides_container {height: 660px;}
 #home #home-slides .pagination { display: none;}
