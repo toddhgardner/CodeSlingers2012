@@ -1,2 +1,4 @@
-﻿body {
-}
+﻿#header { position: fixed;top: 0;background: url('../Images/header-bg.png') no-repeat;width: 100%;}
+#header .navigation {height: 71px;}
+#header .navigation ul li { list-style-type: none;display: inline-block;}
+#header .shadow { background-color: transparent;height: 28px;}
