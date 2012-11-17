@@ -9,9 +9,6 @@ namespace CodeSlingers.Controllers
 {
     public class TwitterController : Controller
     {
-        //
-        // GET: /Twitter/
-
         public JsonResult Index()
         {
 			OAuthTokens tokens = new OAuthTokens();
@@ -20,29 +17,13 @@ namespace CodeSlingers.Controllers
 			tokens.ConsumerKey = "j9wouFSIcK1Wjfjy5iKpyg";
 			tokens.ConsumerSecret = "GJGaaB5TuYRyhcSYzLQvHNBrZGXTvpFw0eE6vsoswY8";
 
-			SearchOptions options = new SearchOptions()
+			var options = new SearchOptions()
 			{
 				PageNumber = 1,
 				NumberPerPage = 5
 			};
 
-			TwitterResponse<TwitterSearchResultCollection> searchResult = TwitterSearch.Search("#goodtimesushi", options);
-
-			//while (searchResult.Result == RequestResult.Success && pageNumber < 5)
-			//{
-			//    Console.WriteLine("==== PAGE {0} ====", pageNumber);
-			//    Console.WriteLine();
-
-			//foreach (var tweet in searchResult.ResponseObject)
-			//{
-			//    Console.WriteLine("[{0}] {1,-10}: {2}", tweet.CreatedDate, tweet.FromUserScreenName, tweet.Text);
-			//}
-
-			//    pageNumber++;
-			//    options.PageNumber = pageNumber;
-			//    searchResult = TwitterSearch.Search(query, options);
-			//    Console.WriteLine();
-			//}
+			TwitterResponse<TwitterSearchResultCollection> searchResult = TwitterSearch.Search("goodtimesushi", options);
 
 			return Json(searchResult.ResponseObject, JsonRequestBehavior.AllowGet);
         }
