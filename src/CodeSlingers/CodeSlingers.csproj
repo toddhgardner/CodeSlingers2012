@@ -114,7 +114,26 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Css\header.css" />
+    <Content Include="Css\home.css" />
+    <Content Include="Css\aboutUs.css" />
+    <Content Include="Css\menu.css" />
+    <Content Include="Css\maps.css" />
+    <Content Include="Css\jobs.css" />
+    <Content Include="Css\connect.css" />
+    <Content Include="Css\footer.css" />
+    <Content Include="Css\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Js\aboutUs.js" />
+    <Content Include="Js\externals\jquery.js" />
+    <Content Include="Js\externals\skrollr.js" />
+    <Content Include="Js\maps.js" />
+    <Content Include="Js\jobs.js" />
+    <Content Include="Js\connect.js" />
+    <Content Include="Js\footer.js" />
+    <Content Include="Js\menu.js" />
+    <Content Include="Js\home.js" />
+    <Content Include="Js\header.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -125,6 +144,7 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
