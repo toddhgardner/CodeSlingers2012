@@ -30,7 +30,7 @@
 	var _renderTweet = function (tweetIndex, tweet) {
 		var selector = "#connect .bubble." + tweetIndex;
 		$(selector + " .text").text(tweet.text).urlToLink();
-		$(selector + " .timestamp").text(tweet.createdDate.toString());
+		$(selector + " .timestamp").text("Posted " + tweet.createdDate);
 	}
 
 	$.fn.urlToLink = function () {

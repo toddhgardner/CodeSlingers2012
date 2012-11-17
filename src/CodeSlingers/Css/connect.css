@@ -29,32 +29,57 @@
 	text-align: center;
 }
 
+#connect .bubble a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#connect .bubble a:hover
+{
+	text-decoration: underline;
+}
+
+#connect .bubble .text
+{
+	font-family: 'OpenSansRegular';
+	font-size: 18px;
+	line-height: 27px;
+}
+
+#connect .bubble .timestamp
+{
+	font-family: 'OpenSansBold';
+	font-size: 12px;
+	line-height: 20px;
+}
+
 #connect .bubble.one 
 {
-	top: 90px;
+	top: 111px;
 	left: 0px;	
 }
 
 #connect .bubble.two 
 {
-	top: 450px;
+	top: 524px;
 	left: 50px;	
 }
 
 #connect .bubble.three 
 {
-	top: 275px;
-	left: 350px;	
+	top: 256px;
+	left: 344px;	
 }
 
 #connect .bubble.four 
 {
-	top: 45px;
+	top: 41px;
 	left: 655px;	
 }
 
 #connect .bubble.five 
 {
-	top: 500px;
+	top: 475px;
 	left: 650px;	
 }
