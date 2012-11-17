@@ -114,6 +114,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.svg" />
+    <Content Include="Css\Fonts\Pacifico\Pacifico-webfont.svg" />
     <Content Include="Css\header.css" />
     <Content Include="Css\home.css" />
     <Content Include="Css\aboutUs.css" />
@@ -126,6 +128,12 @@
     <Content Include="Css\site.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\bg.png" />
+    <Content Include="Images\boatlady.png" />
+    <Content Include="Images\header-bg.png" />
+    <Content Include="Images\header-logo.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\sassycouple.png" />
+    <Content Include="Images\sushipr0n.png" />
     <Content Include="Js\aboutUs.js" />
     <Content Include="Js\externals\jquery.js" />
     <Content Include="Js\externals\skrollr.js" />
@@ -177,6 +185,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Partials\Jobs.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\Fonts\Pacifico\Pacifico-webfont.eot" />
+    <Content Include="Css\Fonts\Pacifico\Pacifico-webfont.ttf" />
+    <Content Include="Css\Fonts\Pacifico\Pacifico-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.eot" />
+    <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.ttf" />
+    <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

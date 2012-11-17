@@ -1,1 +1,20 @@
-﻿#home { height: 660px;margin-top: 71px;background-color: #000;}
+﻿/*#home { height: 660px;background-color: yellow;}
+#home .logo-cont {max-width: 960px;margin: 0 auto;position: relative;}
+#home .logo-cont img { position: absolute;left: 0;top: 115px;}
+#home .highlights { max-width: 1440px;height: 200px;}
+*/
+#home .highlights {
+    width: 1440px;
+    height: 201px;
+    background: url('../Images/home-hightlights-bg.png');
+    position: absolute;
+    margin-top: -201px;
+    right: 0;
+    z-index: 1000;
+}
+#home .highlights .content {width: 960px;margin: 0 auto;}
+#home .highlights .content .logo {margin-top: -355px;float:left;}
+#home .highlights .content ul {padding: 0;list-style-type: none;z-index: 1002}
+#home .highlights .content ul li { float: left;}
+#home .slides_container {height: 660px;}
+#home #home-slides .pagination { display: none;}
