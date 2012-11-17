@@ -1,4 +1,9 @@
-﻿#header { position: fixed;top: 0;background: url('../Images/header-bg.png') no-repeat;width: 100%;}
-#header .navigation {height: 71px;}
-#header .navigation ul li { list-style-type: none;display: inline-block;}
-#header .shadow { background-color: transparent;height: 28px;}
+﻿#header {height: 95px; position: fixed;top: 0;background: url('../Images/header-bg.png') no-repeat;width: 100%;}
+#header .navigation {width: 960px;margin: auto;position: relative;}
+#header .navigation #logo { position: absolute;top: 7px;left: 322px;}
+#header .navigation ul { margin: 0;padding: 0;}
+#header .navigation ul li { list-style-type: none;display: inline-block;margin: 22px 27px;}
+#header .navigation ul li.loc-nav { margin-left: 342px;}
+#header .navigation ul li a { color: #FFF;font-family: 'BebasNeueRegular';text-decoration: none;font-size: 22px;}
+#header .navigation ul li a.current { color: #FFCCCC;}
+
