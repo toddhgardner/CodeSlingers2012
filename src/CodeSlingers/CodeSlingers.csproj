@@ -131,12 +131,14 @@
     <Content Include="Images\boatlady.png" />
     <Content Include="Images\header-bg.png" />
     <Content Include="Images\header-logo.png" />
+    <Content Include="Images\home-hightlights-bg.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\sassycouple.png" />
     <Content Include="Images\sushipr0n.png" />
     <Content Include="Js\aboutUs.js" />
     <Content Include="Js\externals\jquery.js" />
     <Content Include="Js\externals\skrollr.js" />
+    <Content Include="Js\externals\slides.jquery.js" />
     <Content Include="Js\maps.js" />
     <Content Include="Js\jobs.js" />
     <Content Include="Js\connect.js" />
