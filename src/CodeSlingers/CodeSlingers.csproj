@@ -240,6 +240,11 @@
     <Content Include="Css\Fonts\OpenSans\OpenSans-Bold-webfont.ttf" />
     <Content Include="Css\Fonts\OpenSans\OpenSans-Bold-webfont.woff" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Partials\Instagram.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
