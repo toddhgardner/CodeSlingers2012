@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInfo name="Composite.StarterSite.CorporateSite.Core" groupName="Composite.StarterSite.CorporateSite" version="1.0.13" author="Composite A/S" website="http://startersite.dev01.composite.net/" description="StarterSite xslt based template" installDate="2012-11-16T19:26:05.7406415-06:00" installedBy="slingers" isLocalInstalled="true" canBeUninstalled="true" flushOnCompletion="false" reloadConsoleOnCompletion="false" systemLocking="none" xmlns="http://www.composite.net/ns/management/packageinstaller/1.0" />

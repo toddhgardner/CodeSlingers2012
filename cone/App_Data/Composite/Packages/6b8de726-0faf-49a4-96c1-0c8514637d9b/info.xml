@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInfo name="Composite.StarterSite.CorporateSite.Templates.RazorBased" groupName="Composite.StarterSite.CorporateSite" version="1.0.7" author="Composite A/S" website="http://composite.net" description="Starter site Razor based template" installDate="2012-11-16T19:26:01.6284063-06:00" installedBy="slingers" isLocalInstalled="true" canBeUninstalled="true" flushOnCompletion="false" reloadConsoleOnCompletion="false" systemLocking="none" xmlns="http://www.composite.net/ns/management/packageinstaller/1.0" />

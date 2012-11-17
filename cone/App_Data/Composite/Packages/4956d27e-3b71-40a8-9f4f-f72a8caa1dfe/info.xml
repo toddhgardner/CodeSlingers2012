@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInfo name="Composite.Navigation.LevelSitemap.Razor" groupName="Composite.Navigation" version="1.0.1" author="Composite" website="http://composite.net" description="Razor based level sitemap builder" installDate="2012-11-16T19:26:00.3493332-06:00" installedBy="slingers" isLocalInstalled="true" canBeUninstalled="true" flushOnCompletion="false" reloadConsoleOnCompletion="false" systemLocking="none" xmlns="http://www.composite.net/ns/management/packageinstaller/1.0" />

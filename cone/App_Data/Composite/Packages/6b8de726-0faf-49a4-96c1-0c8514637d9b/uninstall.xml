@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\PageTemplates\1 column, full width.xml" />
+        <File filename="~\App_Data\PageTemplates\2 columns, content and aside.xml" />
+        <File filename="~\App_Data\PageTemplates\2 columns, navigation and content.xml" />
+        <File filename="~\App_Data\PageTemplates\3 columns.xml" />
+        <File filename="~\App_Data\PageTemplates\Frontpage.xml" />
+        <File filename="~\App_Data\Razor\Layout\Frontpage.cshtml" />
+        <File filename="~\App_Data\Razor\Layout\MasterLayout.cshtml" />
+        <File filename="~\App_Data\Razor\Layout\OneColumnFullWidth.cshtml" />
+        <File filename="~\App_Data\Razor\Layout\ThreeColumns.cshtml" />
+        <File filename="~\App_Data\Razor\Layout\TwoColumnsContentAside.cshtml" />
+        <File filename="~\App_Data\Razor\Layout\TwoColumnsNavigationContent.cshtml" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IPageTemplate,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="9f096519-d21c-435e-b334-62224fde2ab3" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e3851f7a-3f4b-4eda-9708-07c3b6020e08" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ea2ca748-efbf-4d94-8e2a-11ce49b71cd5" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a270f819-0b5c-4f7e-9194-4b554043e4ab" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0526ad34-c540-418e-8c23-0eec2a8da2ce" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IFolderWhiteList,Composite" dataScopeIdentifier="administrated">
+          <Datas>
+            <Keys>
+              <Key name="KeyName" value="LayoutFiles" />
+              <Key name="TildeBasedPath" value="~\App_Data\Razor\Layout" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

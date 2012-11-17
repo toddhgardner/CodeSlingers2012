@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\Bin\CompositeC1Contrib.Core.dll" />
+        <File filename="~\Bin\CompositeC1Contrib.RazorFunctions.dll" />
+        <File filename="~\Bin\Microsoft.Web.Helpers.dll" />
+        <File filename="~\Bin\Microsoft.Web.Infrastructure.dll" />
+        <File filename="~\Bin\System.Web.Helpers.dll" />
+        <File filename="~\Bin\System.Web.Razor.dll" />
+        <File filename="~\Bin\System.Web.WebPages.dll" />
+        <File filename="~\Bin\System.Web.WebPages.Deployment.dll" />
+        <File filename="~\Bin\System.Web.WebPages.Razor.dll" />
+        <File filename="~\App_Data\Razor\Examples/ColorCube.cshtml" />
+        <File filename="~\App_Data\Razor\Examples/ExecuteOtherFunctions.cshtml" />
+        <File filename="~\App_Data\Razor\Examples/Navigation/Breadcrumb.cshtml" />
+        <File filename="~\App_Data\Razor\Examples/Navigation/Sitemap.cshtml" />
+        <File filename="~\App_Data\Razor\Examples/Navigation/Subnavigation.cshtml" />
+        <File filename="~\App_Data\Razor\Examples/Navigation/Topnavigation.cshtml" />
+        <File filename="~\App_Data\Razor\web.config" />
+      </Files>
+    </Add>
+    <Add uninstallerType="CompositeC1Contrib.PackageFragmentInstallers.TransformXmlPackageFragmentUninstaller,CompositeC1Contrib.Core">
+      <XmlFiles xmlns="">
+        <XmlFile source="~\config\web.config" target="~\web.config" />
+        <XmlFile source="~\config\App_Data\Composite\composite.config" target="~\App_Data\Composite\composite.config" />
+      </XmlFiles>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

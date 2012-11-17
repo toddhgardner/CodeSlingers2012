@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="c5423f9a-aaff-478c-88c4-6ba32293067d" name="IWhiteListedLocale" namespace="Composite.Data.Types" hasCustomPhysicalSortOrder="false" isCodeGenerated="false" cachable="false" typeManagerTypeName="Composite.Data.Types.IWhiteListedLocale,Composite">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="public" />
+  </DataScopes>
+  <KeyPropertyNames>
+    <KeyPropertyName name="CultureName" />
+  </KeyPropertyNames>
+  <SuperInterfaces />
+  <Fields>
+    <DataFieldDescriptor id="5aab5381-5739-4502-a2c3-f3aae0e93cce" name="CultureName" isNullable="false" position="1000" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='16'" isReadOnly="false">
+      <FormRenderingProfile />
+    </DataFieldDescriptor>
+  </Fields>
+</DataTypeDescriptor>

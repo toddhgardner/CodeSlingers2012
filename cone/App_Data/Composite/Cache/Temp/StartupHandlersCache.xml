@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<SubscribedTypesCache xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Assemblies>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Workflows</AssemblyName>
+      <LastModified>2012-04-24T21:33:06-05:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>ICSharpCode.SharpZipLib</AssemblyName>
+      <LastModified>2012-04-24T21:33:08-05:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Common</AssemblyName>
+      <LastModified>2012-04-24T21:17:48-05:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Logging</AssemblyName>
+      <LastModified>2012-04-24T21:17:50-05:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Validation</AssemblyName>
+      <LastModified>2012-04-24T21:17:48-05:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.ObjectBuilder</AssemblyName>
+      <LastModified>2012-04-24T21:17:50-05:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>TidyNet</AssemblyName>
+      <LastModified>2012-04-24T21:33:08-05:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite</AssemblyName>
+      <LastModified>2012-11-16T19:26:22.7846164-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>CompositeC1Contrib.Core</AssemblyName>
+      <LastModified>2012-11-16T19:25:58.773243-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>CompositeC1Contrib.RazorFunctions</AssemblyName>
+      <LastModified>2012-11-16T19:25:59.0082564-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>dotless.Core</AssemblyName>
+      <LastModified>2012-11-16T19:26:01.1453787-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Web.Helpers</AssemblyName>
+      <LastModified>2012-11-16T19:25:59.1242631-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Web.Infrastructure</AssemblyName>
+      <LastModified>2012-11-16T19:25:59.2222687-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.Helpers</AssemblyName>
+      <LastModified>2012-11-16T19:25:59.2592708-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.Razor</AssemblyName>
+      <LastModified>2012-11-16T19:25:59.3652769-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.WebPages.Deployment</AssemblyName>
+      <LastModified>2012-11-16T19:25:59.4832836-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.WebPages</AssemblyName>
+      <LastModified>2012-11-16T19:25:59.4362809-06:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.WebPages.Razor</AssemblyName>
+      <LastModified>2012-11-16T19:25:59.525286-06:00</LastModified>
+    </AssemblyInfo>
+  </Assemblies>
+</SubscribedTypesCache>

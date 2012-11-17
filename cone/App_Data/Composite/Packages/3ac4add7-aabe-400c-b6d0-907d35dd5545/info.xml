@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInfo name="Composite.StarterSite.CorporateSite.SampleImages" groupName="Composite.StarterSite.CorporateSite" version="1.0.1" author="Composite A/S" website="http://composite.net" description="Sample images" installDate="2012-11-16T19:26:18.5933767-06:00" installedBy="slingers" isLocalInstalled="true" canBeUninstalled="true" flushOnCompletion="false" reloadConsoleOnCompletion="false" systemLocking="none" xmlns="http://www.composite.net/ns/management/packageinstaller/1.0" />
