@@ -2,3 +2,57 @@
 { 
     height: 700px;
 }
+
+#maps .map-container 
+{
+	position:relative;
+}
+
+
+#maps .map-overlay-wrapper
+{
+	width:960px;
+	position:relative;
+	margin: 0 auto;
+}
+
+#maps .map-overlay 
+{
+	background: url("../images/map-overlay.png") no-repeat scroll 0 0 transparent;
+	position:absolute;
+	width:329px;
+	height:700px;
+	top: -700px;
+	right: 0px;
+}
+
+#maps .address {
+	text-align:center;
+	position:absolute;
+	right: 45px;
+	width:250px;
+	font-family:'BebasNeueRegular';
+    font-size: 30px;
+    line-height: 28px;
+    color: #FFF;
+}
+
+#maps .mpls-overlay {
+	top: 124px;
+}
+
+#maps .paul-overlay {
+	top: 380px;
+}
+
+#maps .city
+{
+	font-family:'PacificoRegular';
+    font-size: 44px;
+    line-height: 80px;
+    margin-bottom: 2px;
+}
+
+#maps .map-info-window .title {
+	font-weight:bold;
+}
