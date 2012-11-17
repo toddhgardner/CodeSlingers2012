@@ -7,18 +7,34 @@
         $('.menu-links .link').first().addClass('active');
     }
 
-
     $("#menu").slides({
         preload:true,
         start: startSlide,
         container: 'menu-items',
-        pause: 5000,
         next: 'menu-right',
         prev: 'menu-left',
         generateNextPrev: false,
         animationComplete: function (current) {
             window.location.hash = '#' + current;
         }
+    });
+
+    $('.menu-left').on('click', function () {
+        var current = parseInt($('.menu-links .active').attr('data-page'), 10);
+        var newpage = current - 1;
+        newpage = newpage < 1 ? 7 : newpage;
+
+        $('.menu-links .link').removeClass('active');
+        $('.menu-links').find('[data-page=' + newpage + ']').addClass('active');
+    });
+
+    $('.menu-right').on('click', function () {
+        var current = parseInt($('.menu-links .active').attr('data-page'), 10);
+        var newpage = current + 1;
+        newpage = newpage > 7 ? 1 : newpage;
+
+        $('.menu-links .link').removeClass('active');
+        $('.menu-links').find('[data-page=' + newpage + ']').addClass('active');
     });
 
     $('.menu-links .link').on('click', function () {

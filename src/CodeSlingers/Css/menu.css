@@ -65,6 +65,10 @@
     padding: 0;
 }
 
+.menu-items #menu-page-7 h3 {
+    margin-top: 18px;
+}
+
 .menu-items .col {
     padding-right: 10px;
     width: 310px;
@@ -98,6 +102,7 @@
 
 #menu-controls {
     min-width: 960px;
+    margin-top: -360px;
 }
 
 #menu-controls a {
