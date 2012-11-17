@@ -137,6 +137,9 @@
     <Content Include="Images\aboutus\sushi-3.png" />
     <Content Include="Images\bg.png" />
     <Content Include="Images\boatlady.png" />
+    <Content Include="Images\connect-background.png" />
+    <Content Include="Images\feature-link-bullet.png" />
+    <Content Include="Images\featured-roll.png" />
     <Content Include="Images\header-bg.png" />
     <Content Include="Images\header-logo.png" />
     <Content Include="Images\home-hightlights-bg.png" />
