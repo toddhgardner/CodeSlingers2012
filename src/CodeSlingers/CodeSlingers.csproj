@@ -193,9 +193,11 @@
     <Content Include="Js\externals\jquery.js" />
     <Content Include="Js\externals\jquery.localscroll-1.2.7-min.js" />
     <Content Include="Js\externals\jquery.scrollTo-1.4.3.1-min.js" />
+    <Content Include="Js\externals\moment.min.js" />
     <Content Include="Js\externals\jquery.validate.js" />
     <Content Include="Js\externals\skrollr.js" />
     <Content Include="Js\externals\slides.jquery.js" />
+    <Content Include="Js\externals\underscore.js" />
     <Content Include="Js\instagram.js" />
     <Content Include="Js\maps.js" />
     <Content Include="Js\jobs.js" />
@@ -204,6 +206,7 @@
     <Content Include="Js\menu.js" />
     <Content Include="Js\home.js" />
     <Content Include="Js\header.js" />
+    <Content Include="Texty.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

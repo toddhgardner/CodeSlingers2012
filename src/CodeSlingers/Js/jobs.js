@@ -34,21 +34,31 @@
         $("#jobs-modal-container .job-form").validate({
             rules: {
                 Name:{
-                    required: true
+                    required: true,
+                    regex: /^[a-zA-Z \'\-\.]*$/
                 },
                 Email: {
-                    email: true,
-                    required:true
+                    required: true,
+                    email: true
                 },
                 PhoneNumber: {
                     required:true,
                     regex: /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/
+                },
+                About: {
+                    regex: /^[a-zA-Z0-9 \.\-\_\!\?\,\;\:\"\'\(\)]*$/
                 }
             },
             errorPlacement: function () {
             },
             submitHandler: function (evt) {
                 console.log(evt);
+                var form = $("#jobs-modal-container .job-form").serialize();
+                $.ajax({
+                    type: 'post',
+                    url: 'jobs',
+                    data: form
+                });
                 return false;
             }
         });
