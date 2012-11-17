@@ -1,12 +1,21 @@
 ﻿#about-us {
-    background: url(../images/aboutus/aboutus-background.png) no-repeat center transparent;
     height:700px;
+    margin-bottom:-19px;
+    background: url(../images/aboutus/aboutus-background.png) no-repeat transparent;
+    background-position:0 top;
     overflow:hidden;
 }
+
+#about-us .wrapper {
+    background: url(../images/aboutus/aboutus-circle.png) no-repeat transparent;
+    background-position:57px 68px;
+    height:100%;
+}
+
 .blurred-sushi {
     background-image:url(../images/aboutus/blurred-sushi.png);
     background-repeat:no-repeat;
-    background-position: 0 150px;
+    background-position: 0 350px;
     background-color:transparent;
 }
 
@@ -16,7 +25,7 @@
     font-size: 69px;
     color:#F54B4B;
     text-align:center;
-    margin-top:139px;
+    margin-top:120px;
 }
 #about-us .body {
     font-family:OpenSansRegular;
