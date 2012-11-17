@@ -24,9 +24,16 @@
 	color: #FFF;
 	width: 250px;
 	height: 230px;
-	padding: 85px 33px 0 33px;
+	padding: 43px 33px;
 	position: absolute;
 	text-align: center;
+	display: table;
+}
+
+#connect .bubble-inner
+{
+	display:table-cell;
+	vertical-align:middle;
 }
 
 #connect .bubble a
