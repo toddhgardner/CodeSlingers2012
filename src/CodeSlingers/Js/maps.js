@@ -7,6 +7,7 @@
 		var myOptions = {
 			zoom: 11,
 			center: latlng,
+			disableDefaultUI: true,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 		_googleMap = new google.maps.Map($("#map-canvas")[0], myOptions);
