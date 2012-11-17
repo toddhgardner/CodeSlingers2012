@@ -23,14 +23,26 @@
 	position:absolute;
 	right: 242px;
 	width:250px;
+	font-family:'BebasNeueRegular';
+    font-size: 30px;
+    line-height: 28px;
+    color: #FFF;
 }
 
 #maps .mpls-overlay {
-	top: 200px;
+	top: 124px;
 }
 
 #maps .paul-overlay {
 	top: 450px;
+}
+
+#maps .city
+{
+	font-family:'PacificoRegular';
+    font-size: 44px;
+    line-height: 80px;
+    margin-bottom: 2px;
 }
 
 #maps .map-info-window .title {
