@@ -1,1 +1,5 @@
-﻿
+﻿window.renderInstagram = function (response) {
+
+
+};
+
