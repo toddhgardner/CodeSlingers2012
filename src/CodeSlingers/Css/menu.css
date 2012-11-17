@@ -44,7 +44,7 @@
     color: #fff000;
 }
 
-.menu-links li a.active, #menu-links li a:hover {
+.menu-links li a.active, .menu-links li a:hover {
     color: #ffffff;
 }
 

@@ -2,22 +2,27 @@
     var startSlide = 1;
     if (window.location.hash) {
         startSlide = window.location.hash.replace('#', '');
+        $('.menu-links').find('[href=' + window.location.hash + ']').addClass('active');
+    } else {
+        $('.menu-links .link').first().addClass('active');
     }
+
 
     $("#menu").slides({
         preload:true,
         start: startSlide,
         container: 'menu-items',
         pause: 5000,
-        //currentClass: 'active',
-        //pagination: 'menu-links',
         next: 'menu-right',
         prev: 'menu-left',
         generateNextPrev: false,
-        //generatePagination: false,
         animationComplete: function (current) {
-            // Set the slide number as a hash
             window.location.hash = '#' + current;
         }
+    });
+
+    $('.menu-links .link').on('click', function () {
+        $('.menu-links .link').removeClass('active');
+        $(this).addClass('active');
     });
 });
