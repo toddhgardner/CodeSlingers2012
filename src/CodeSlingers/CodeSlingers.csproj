@@ -135,14 +135,12 @@
     <Content Include="Images\aboutus\sushi-3.png" />
     <Content Include="Images\bg.png" />
     <Content Include="Images\boatlady.png" />
+    <Content Include="Images\connect-background.png" />
+    <Content Include="Images\feature-link-bullet.png" />
+    <Content Include="Images\featured-roll.png" />
     <Content Include="Images\header-bg.png" />
     <Content Include="Images\header-logo.png" />
     <Content Include="Images\home-hightlights-bg.png" />
-    <Content Include="Images\jobs\applybutton.png" />
-    <Content Include="Images\jobs\jobs-background.png" />
-    <Content Include="Images\jobs\jobs-circle.png" />
-    <Content Include="Images\jobs\jobs-painting-1.png" />
-    <Content Include="Images\jobs\jobs-painting-2.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\map-marker.png" />
     <Content Include="Images\map-overlay.png" />
@@ -152,6 +150,7 @@
     <Content Include="Images\sassycouple.png" />
     <Content Include="Images\sushipr0n.png" />
     <Content Include="Js\aboutUs.js" />
+    <Content Include="Js\externals\bootstrap.scrollspy.js" />
     <Content Include="Js\externals\colorbox\colorbox.css" />
     <Content Include="Js\externals\colorbox\images\border1.png" />
     <Content Include="Js\externals\colorbox\images\border2.png" />
@@ -166,6 +165,8 @@
     <Content Include="Js\externals\colorbox\images\loading.gif" />
     <Content Include="Js\externals\colorbox\jquery.colorbox.js" />
     <Content Include="Js\externals\jquery.js" />
+    <Content Include="Js\externals\jquery.localscroll-1.2.7-min.js" />
+    <Content Include="Js\externals\jquery.scrollTo-1.4.3.1-min.js" />
     <Content Include="Js\externals\skrollr.js" />
     <Content Include="Js\externals\slides.jquery.js" />
     <Content Include="Js\maps.js" />
