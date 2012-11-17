@@ -5,6 +5,7 @@
 	var _initializeGoogleMap = function () {
 		var latlng = new google.maps.LatLng(44.960195, -93.164663);
 		var myOptions = {
+		    scrollwheel: false,
 			zoom: 11,
 			center: latlng,
 			disableDefaultUI: true,
