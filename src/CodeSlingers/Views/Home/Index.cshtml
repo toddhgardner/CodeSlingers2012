@@ -27,19 +27,19 @@
     <body>
         <div id="wrap">
             <div id="content">
-@*                @Html.Partial("Partials/Header")
+                @Html.Partial("Partials/Header")
                 @Html.Partial("Partials/Home")
                 @Html.Partial("Partials/AboutUs")
-                @Html.Partial("Partials/Menu")*@
+                @Html.Partial("Partials/Menu")
                 @Html.Partial("Partials/Maps")
-@*                @Html.Partial("Partials/Jobs")
+                @Html.Partial("Partials/Jobs")
                 @Html.Partial("Partials/Connect")
-                @Html.Partial("Partials/Footer")*@
+                @Html.Partial("Partials/Footer")
             </div>
         </div>
     </body>
 
 	<script type="text/javascript">
-		window.rootUrl = @Url.Content("~/");
+		window.rootUrl = "@Url.Content("~/")";
 	</script>
 </html>
