@@ -53,6 +53,12 @@
             },
             submitHandler: function (evt) {
                 console.log(evt);
+                var form = $("#jobs-modal-container .job-form").serialize();
+                $.ajax({
+                    type: 'post',
+                    url: 'jobs',
+                    data: form
+                });
                 return false;
             }
         });
