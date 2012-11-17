@@ -9,13 +9,13 @@
 .jobs-content {
     width:960px;
     margin:0 auto;
-    position:absolute;
+    position:relative;
 }
 #jobs .picture1 {
     width:533px;
     height:437px;
     position:absolute;
-    top:-47px;
+    top:2711px;
     z-index:1;
     left:0px;
     background: url(../images/jobs/jobs-painting-1.png) no-repeat transparent;
@@ -24,15 +24,15 @@
     width:598px;
     height:492px;
     position:absolute;
-    top:124px;
-    left:203px;
+    top:130px;
+    left:-28px;
     z-index:2;
     background: url(../images/jobs/jobs-painting-2.png) no-repeat transparent;
 }
 
 #jobs .circle {
     position:absolute;
-    left:751px;
+    left:500px;
     top:75px;
     width:534px;
     height:534px;
@@ -48,11 +48,28 @@
 #jobs .circle .body {
     font-family:OpenSansRegular;
     font-size:14px;
-    color:#333;
+    color:#000;
     width:400px;
     text-align:center;
     position:absolute;
     left:70px;
     top:150px;
     line-height:22px;
+}
+
+#jobs .circle .apply {
+    position:absolute;
+    left:200px;
+    top:395px;
+}
+
+#jobs .circle .apply-button {
+    width:139px;
+    height:46px;
+    background:url(../images/jobs/applybutton.png) no-repeat transparent;
+    color: white;
+    font-family: BebasNeueRegular;
+    font-size:24px;
+    text-shadow:1px 2px 2px #333;
+    border:none;
 }
