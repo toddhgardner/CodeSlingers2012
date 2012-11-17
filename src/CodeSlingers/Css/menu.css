@@ -50,14 +50,47 @@
 
 .menu-items {
     width:960px;
-    height:270px;
+    height:520px;
     margin: 0 auto 0;
 }
 
 .menu-items div {
     width:960px;
-    height:270px;
+    height:520px;
     display:block;
+}
+
+.menu-items ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items .col {
+    padding-right: 10px;
+    width: 310px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-items .col.last {
+    padding-right: 0;
+}
+
+.menu-items .col h3 {
+    color: #ffffff;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.menu-items .col p {
+    color: #ffffff;
+    font-family: 'OpenSansRegular';
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 0;
 }
 
 #menu .pagination {
