@@ -9,6 +9,7 @@ namespace CodeSlingers.Controllers
 {
     public class TwitterController : Controller
     {
+		[OutputCache(Duration=600)]
         public JsonResult Index()
         {
 			OAuthTokens tokens = new OAuthTokens();

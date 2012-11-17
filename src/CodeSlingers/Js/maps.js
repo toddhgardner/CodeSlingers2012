@@ -1,6 +1,6 @@
 ﻿$(function () {
 	var _googleMap;
-	var _mapIcon = window.rootUrl + "images/map-marker.png"; ;
+	var _mapIcon = window.rootUrl + "images/map-marker.png";
 
 	var _initializeGoogleMap = function () {
 		var latlng = new google.maps.LatLng(44.960195, -93.164663);

@@ -41,6 +41,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.0.3.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -90,8 +94,9 @@
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Twitterizer2">
-      <HintPath>..\..\..\..\temp\Twitterizer.r534\bin\Twitterizer2.dll</HintPath>
+    <Reference Include="Twitterizer2, Version=2.4.0.2028, Culture=neutral, PublicKeyToken=69d1469eac671567, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Twitterizer2.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
