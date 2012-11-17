@@ -21,7 +21,6 @@ namespace CodeSlingers.Controllers
             var request = new RestRequest("api/vermillion", Method.POST);
             request.RequestFormat = DataFormat.Json;
             request.AddBody(job);
-            
 
             // execute the request
             var response = client.Execute<Job>(request);
