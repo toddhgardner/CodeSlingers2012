@@ -1,1 +1,65 @@
-﻿
+﻿#about-us {
+    background: url(../images/aboutus/aboutus-background.png) no-repeat center transparent;
+    height:700px;
+    overflow:hidden;
+}
+.blurred-sushi {
+    background-image:url(../images/aboutus/blurred-sushi.png);
+    background-repeat:no-repeat;
+    background-position: 0 150px;
+    background-color:transparent;
+}
+
+#about-us .title {
+    font-family:'PacificoRegular';
+    text-decoration: none;
+    font-size: 69px;
+    color:#F54B4B;
+    text-align:center;
+    margin-top:139px;
+}
+#about-us .body {
+    font-family:OpenSansRegular;
+    font-size:14px;
+    line-height:26px;
+    color:#333;
+    text-align:center;
+}
+
+#parallax-sushi .caviar {
+    background-image:url(../images/aboutus/sushi-1.png);
+    background-repeat:no-repeat;
+    background-position: 150px 0;
+    background-color:transparent;
+    height:70px;
+    margin-top:97px;
+}
+
+#parallax-sushi .shrimp {
+    background-image:url(../images/aboutus/sushi-2.png);
+    background-repeat:no-repeat;
+    background-position: 50px 0;
+    background-color:transparent;
+    height:167px;
+    margin-top:15px;
+}
+
+#parallax-sushi .rice {
+    background-image:url(../images/aboutus/sushi-3.png);
+    background-repeat:no-repeat;
+    background-position: 50px 0;
+    background-color:transparent;
+    height:158px;
+    margin-top:-60px;
+}
+
+#parallax-sushi .chopsticks {
+    background-image:url(../images/aboutus/chopsticks.png);
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    background-color:transparent;
+    height:110px;
+    margin-top:-15px;
+}
+
+
