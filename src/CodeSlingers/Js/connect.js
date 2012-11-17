@@ -13,7 +13,7 @@
 		var allTweets = [];
 		$.each(data, function (index, tweetData) {
 			var tweet = {
-				createdDate: new Date(tweetData.CreatedDate),
+				createdDate: moment(tweetData.CreatedDate).fromNow(),
 				text: tweetData.Text
 			};
 
