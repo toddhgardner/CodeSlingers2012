@@ -142,6 +142,7 @@
     <Content Include="Images\header-bg.png" />
     <Content Include="Images\header-logo.png" />
     <Content Include="Images\home-hightlights-bg.png" />
+    <Content Include="Images\jobs\applybutton.png" />
     <Content Include="Images\jobs\jobs-background.png" />
     <Content Include="Images\jobs\jobs-circle.png" />
     <Content Include="Images\jobs\jobs-painting-1.png" />
