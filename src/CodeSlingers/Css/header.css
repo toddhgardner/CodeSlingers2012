@@ -1,4 +1,4 @@
-﻿#header {height: 100px; position: fixed;top: 0;background: url('../Images/header-bg.png') no-repeat;width: 100%;z-index: 9999;}
+﻿#header {height: 100px; position: fixed;top: 0;left: 0;background: url('../Images/header-bg.png') 50% 0 no-repeat;width: 100%;z-index: 9999;}
 #header .navigation {width: 960px;margin: auto;position: relative;}
 #header .navigation #logo { position: absolute;top:7px;left: 322px;}
 #header .navigation ul { margin: 0;padding: 0;}
