@@ -35,11 +35,10 @@
 
 	$.fn.urlToLink = function () {
 		return this.each(function () {
-			var target = "_self";
 			var element = $(this),
                 expression = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
 
-			return element.html(element.text().replace(expression, "<a href='$1' class='twitter-link' target='" + target + "'>$1</a>"));
+			return element.html(element.text().replace(expression, "<a href='$1' class='twitter-link' target='_blank'>$1</a>"));
 		});
 	};
 

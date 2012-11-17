@@ -4,6 +4,12 @@
 	height: 853px;
 }
 
+#connect .bubble-container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
 #connect .title 
 {
 	color: #FFFFFF;
@@ -16,8 +22,33 @@
 #connect .bubble
 {
 	margin: 10px;
-	width: 450px;
-	height: 100px;
+	width: 250px;
+	height: 250px;
 	border: 1px solid #666;
 	background-color: #BBB;
+	position: absolute;
+}
+
+#connect .bubble.two 
+{
+	top: 450px;
+	left: 50px;	
+}
+
+#connect .bubble.three 
+{
+	top: 275px;
+	left: 350px;	
+}
+
+#connect .bubble.four 
+{
+	top: 45px;
+	left: 655px;	
+}
+
+#connect .bubble.five 
+{
+	top: 500px;
+	left: 650px;	
 }
