@@ -174,7 +174,9 @@
     <Content Include="Js\externals\colorbox\images\ie6\borderTopRight.png" />
     <Content Include="Js\externals\colorbox\images\loading.gif" />
     <Content Include="Js\externals\colorbox\jquery.colorbox.js" />
+    <Content Include="Js\externals\underscore.js" />
     <Content Include="Js\externals\jquery.js" />
+    <Content Include="Js\externals\moment.min.js" />
     <Content Include="Js\externals\jquery.localscroll-1.2.7-min.js" />
     <Content Include="Js\externals\jquery.scrollTo-1.4.3.1-min.js" />
     <Content Include="Js\externals\skrollr.js" />
@@ -247,6 +249,11 @@
     <Content Include="Css\Fonts\OpenSans\OpenSans-Bold-webfont.eot" />
     <Content Include="Css\Fonts\OpenSans\OpenSans-Bold-webfont.ttf" />
     <Content Include="Css\Fonts\OpenSans\OpenSans-Bold-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Partials\Instagram.cshtml">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

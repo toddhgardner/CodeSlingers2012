@@ -13,7 +13,7 @@
 		var allTweets = [];
 		$.each(data, function (index, tweetData) {
 			var tweet = {
-				createdDate: new Date(tweetData.CreatedDate),
+				createdDate: moment(tweetData.CreatedDate).fromNow(),
 				text: tweetData.Text
 			};
 
@@ -29,9 +29,19 @@
 
 	var _renderTweet = function (tweetIndex, tweet) {
 		var selector = "#connect .bubble." + tweetIndex;
-		$(selector + " .text").text(tweet.text);
+		$(selector + " .text").text(tweet.text).urlToLink();
 		$(selector + " .timestamp").text(tweet.createdDate.toString());
 	}
+
+	$.fn.urlToLink = function () {
+		return this.each(function () {
+			var target = "_self";
+			var element = $(this),
+                expression = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+
+			return element.html(element.text().replace(expression, "<a href='$1' class='twitter-link' target='" + target + "'>$1</a>"));
+		});
+	};
 
 	_initializeConnect();
 });
