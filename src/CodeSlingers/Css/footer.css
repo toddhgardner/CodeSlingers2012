@@ -1,1 +1,11 @@
-﻿
+﻿#footer { background-color: #000;}
+#footer .foot-container {width:960px;margin: 0 auto;text-align: right;position: relative;}
+#footer .to-top {
+    bottom: 17px;
+    color: #F1DD00;
+    font-family: 'PacificoRegular';
+    font-size: 21px;
+    position: absolute;
+    right: 39px;
+    text-decoration: none;
+}
