@@ -1,4 +1,5 @@
 ﻿#menu {
+    margin-top: -20px;
     max-width: 1400px;
     min-width: 960px;
     height:718px;
@@ -20,30 +21,30 @@
     margin-bottom: -5px;
 }
 
-#menu-links {
+.menu-links {
     padding: 0;
     list-style: none;
     display: inline;
 }
 
-#menu-links li {
+.menu-links li {
     list-style: none;
     display: inline;
     padding-right:50px;
 }
 
-#menu-links li.last {
+.menu-links li.last {
     padding-right:0px;
 }
 
-#menu-links li a {
+.menu-links li a {
     font-family: 'BebasNeueRegular';
     font-size: 1.78em;
     text-decoration: none;
     color: #fff000;
 }
 
-#menu-links li a.active, #menu-links li a:hover {
+.menu-links li a.active, .menu-links li a:hover {
     color: #ffffff;
 }
 
@@ -59,29 +60,26 @@
     display:block;
 }
 
+#menu .pagination {
+    display: none;
+}
+
 #menu-controls {
-    
     min-width: 960px;
 }
 
-.menu-right {
-    color: transparent;
-   
+#menu-controls a {
+    margin: 20px;
     height: 43px;
     width: 43px;
+}
+
+.menu-right {
     background: url('../Images/menu-rightarrow.png');
-    position: relative;
-    left: 1285px;
-    top: 0;
+    float: right;
 }
 
 .menu-left {
-    color: transparent;
-    
-    height: 43px;
-    width: 43px;
     background: url('../Images/menu-leftarrow.png');
-    position: relative;
-    right: -20px;
-    top: 0;
+    float: left;
 }
