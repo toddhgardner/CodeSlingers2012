@@ -1,12 +1,12 @@
 ﻿#about-us {
-    background: url(../images/aboutus/aboutus-background.png) no-repeat center transparent;
+    background: url(../images/aboutus/aboutus-background.png) no-repeat left center transparent;
     height:700px;
     overflow:hidden;
 }
 .blurred-sushi {
     background-image:url(../images/aboutus/blurred-sushi.png);
     background-repeat:no-repeat;
-    background-position: 0 150px;
+    background-position: 0 350px;
     background-color:transparent;
 }
 
@@ -16,7 +16,7 @@
     font-size: 69px;
     color:#F54B4B;
     text-align:center;
-    margin-top:139px;
+    margin-top:120px;
 }
 #about-us .body {
     font-family:OpenSansRegular;

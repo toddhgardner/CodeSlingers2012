@@ -1,5 +1,8 @@
 ﻿<div id="about-us" class="page">
-    <div class="blurred-sushi" style="width:335px;float:left;height:100%;">
+    <link rel="stylesheet" href="./js/externals/colorbox/colorbox.css" />
+    <script type="text/javascript" src="./js/externals/colorbox/jquery.colorbox.js"></script>
+    
+    <div class="blurred-sushi" style="width:335px;float:left;height:100%;" data-400="background-position: 0 350px" data-600="background-position: 0 150px;">
         
     </div>
     <div style="width:406px;float:left;height:100%">
@@ -12,6 +15,16 @@
             iaculis porttitor posuere. Praesent id metus massa, ut
             blandit odio. Proin quis tortor orci. Etiam at risus et
             justo dignissim congue. Donec congue lacinia dui, a
+        </div>
+        <div class="movie" style="text-align:center;margin-top:10px;">
+            <a href="http://player.vimeo.com/video/18516820" title="Good Times Sushi" id="sushi-movie">
+                <img src="./images/aboutus/movie-thumbnail.png" />
+            </a>
+            <script type="text/javascript">
+                $(function () {
+                    $("#sushi-movie").colorbox({ iframe: true, innerWidth: 500, innerHeight: 409 });
+                });
+            </script>
         </div>
     </div>
     <div id="parallax-sushi" style="width:598px;float:left;margin-left:61px;height:100%">
