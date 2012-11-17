@@ -15,8 +15,14 @@
 #home .highlights .content {width: 960px;margin: 0 auto;}
 #home .highlights .content .logo {margin-top: -355px;float:left;}
 #home .highlights .content ul {margin: 0;padding: 0;list-style-type: none;z-index: 1002}
-#home .highlights .content ul li { float: left;width: 275px;}
-#home .highlights .content ul li p { float: left;width: 275px;font-family: 'OpenSansBold';color: #FFF;}
-#home .highlights .content ul li h3 {margin: 0; font-family: 'PacificoRegular';color: #FFF;font-size: 32px;}
+#home .highlights .content ul li { float: left;width: 310px;margin-right: 10px;}
+#home .highlights .content ul li img { float: left;margin: -38px 0 0 -25px;}
+#home .highlights .content ul li p { float: left;width: 275px;font-family: 'OpenSansBold';color: #FFF;margin: 0 0 4px;}
+#home .highlights .content ul li.featured p{ width: 180px;}
+#home .highlights .content ul li a,
+#home .highlights .content ul li a:active { color: #ef3b3b;text-decoration: none;font-family: 'OpenSansBold';}
+#home .highlights .content ul li a:hover {color:#fff000}
+#home .highlights .content ul li a { padding-left: 18px;background: url('../Images/feature-link-bullet.png') no-repeat 5px 50%;}
+#home .highlights .content ul li h3 {margin:5px 0; font-family: 'PacificoRegular';color: #FFF;font-size: 32px;}
 #home .slides_container {height: 660px;}
 #home #home-slides .pagination { display: none;}
