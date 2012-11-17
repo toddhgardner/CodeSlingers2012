@@ -33,6 +33,8 @@
     background-color:transparent;
     height:70px;
     margin-top:97px;
+    position:relative;
+    z-index:2000;
 }
 
 #parallax-sushi .shrimp {
@@ -42,6 +44,8 @@
     background-color:transparent;
     height:167px;
     margin-top:15px;
+    position:relative;
+    z-index:1000;
 }
 
 #parallax-sushi .rice {
@@ -51,6 +55,7 @@
     background-color:transparent;
     height:158px;
     margin-top:-60px;
+    position:relative;
 }
 
 #parallax-sushi .chopsticks {
@@ -60,6 +65,7 @@
     background-color:transparent;
     height:110px;
     margin-top:-15px;
+    position:relative;
 }
 
 
