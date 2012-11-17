@@ -122,6 +122,7 @@
     <Content Include="Css\jobs.css" />
     <Content Include="Css\connect.css" />
     <Content Include="Css\footer.css" />
+    <Content Include="Css\normalize.css" />
     <Content Include="Css\site.css" />
     <Content Include="Global.asax" />
     <Content Include="Js\aboutUs.js" />
