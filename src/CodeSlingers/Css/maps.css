@@ -2,3 +2,7 @@
 { 
     height: 700px;
 }
+
+.map-info-window .title {
+	font-weight:bold;
+}
