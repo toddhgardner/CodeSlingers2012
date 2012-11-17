@@ -115,6 +115,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.svg" />
+    <Content Include="Css\Fonts\OpenSans\OpenSans-Regular-webfont.svg" />
     <Content Include="Css\Fonts\Pacifico\Pacifico-webfont.svg" />
     <Content Include="Css\header.css" />
     <Content Include="Css\home.css" />
@@ -127,6 +128,12 @@
     <Content Include="Css\normalize.css" />
     <Content Include="Css\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\aboutus\aboutus-background.png" />
+    <Content Include="Images\aboutus\blurred-sushi.png" />
+    <Content Include="Images\aboutus\chopsticks.png" />
+    <Content Include="Images\aboutus\sushi-1.png" />
+    <Content Include="Images\aboutus\sushi-2.png" />
+    <Content Include="Images\aboutus\sushi-3.png" />
     <Content Include="Images\bg.png" />
     <Content Include="Images\boatlady.png" />
     <Content Include="Images\header-bg.png" />
@@ -198,6 +205,11 @@
     <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.eot" />
     <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.ttf" />
     <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\Fonts\OpenSans\OpenSans-Regular-webfont.eot" />
+    <Content Include="Css\Fonts\OpenSans\OpenSans-Regular-webfont.ttf" />
+    <Content Include="Css\Fonts\OpenSans\OpenSans-Regular-webfont.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
