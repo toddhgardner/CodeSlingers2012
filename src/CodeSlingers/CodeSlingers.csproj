@@ -127,6 +127,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Css\bootstrap.css" />
     <Content Include="Css\Fonts\BebasNeue\BebasNeue-webfont.svg" />
     <Content Include="Css\Fonts\OpenSans\OpenSans-Bold-webfont.svg" />
     <Content Include="Css\Fonts\OpenSans\OpenSans-Regular-webfont.svg" />
@@ -161,6 +162,7 @@
     <Content Include="Images\header-logo.png" />
     <Content Include="Images\home-hightlights-bg.png" />
     <Content Include="Images\jobs\applybutton.png" />
+    <Content Include="Images\jobs\button.png" />
     <Content Include="Images\jobs\jobs-background.png" />
     <Content Include="Images\jobs\jobs-circle.png" />
     <Content Include="Images\jobs\jobs-painting-1.png" />
@@ -191,6 +193,7 @@
     <Content Include="Js\externals\jquery.js" />
     <Content Include="Js\externals\jquery.localscroll-1.2.7-min.js" />
     <Content Include="Js\externals\jquery.scrollTo-1.4.3.1-min.js" />
+    <Content Include="Js\externals\jquery.validate.js" />
     <Content Include="Js\externals\skrollr.js" />
     <Content Include="Js\externals\slides.jquery.js" />
     <Content Include="Js\instagram.js" />
