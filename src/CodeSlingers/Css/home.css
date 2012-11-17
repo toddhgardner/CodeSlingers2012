@@ -26,3 +26,26 @@
 #home .highlights .content ul li h3 {margin:5px 0; font-family: 'PacificoRegular';color: #FFF;font-size: 32px;}
 #home .slides_container {height: 660px;}
 #home #home-slides .pagination { display: none;}
+
+
+.next {
+    z-index: 10;
+    color: transparent;
+    margin: -330px 20px 20px;
+    height: 43px;
+    width: 43px;
+    background: url('../Images/menu-rightarrow.png');
+    position: relative;
+    float: right;
+}
+
+.prev {
+    background: url('../Images/menu-leftarrow.png');
+    color: transparent;
+    float: left;
+    height: 43px;
+    margin: -330px 20px 20px;
+    position: relative;
+    width: 43px;
+    z-index: 10;
+}
