@@ -99,6 +99,7 @@
 
 #menu-controls {
     min-width: 960px;
+    margin-top: -360px;
 }
 
 #menu-controls a {
