@@ -24,9 +24,45 @@
 #home .highlights .content ul li a:hover {color:#fff000}
 #home .highlights .content ul li a { padding-left: 18px;background: url('../Images/feature-link-bullet.png') no-repeat 5px 50%;}
 #home .highlights .content ul li h3 {margin:5px 0; font-family: 'PacificoRegular';color: #FFF;font-size: 32px;}
-#home .slides_container {height: 660px;}
-#home #home-slides .pagination { display: none;}
 
+
+#home .slides_container {
+    
+    height:733px;
+    margin: 0 auto 0;
+    overflow: hidden;
+}
+
+#home .slides_container div {
+    width:1400px;
+    height:733px; 
+    display:block;
+    overflow: hidden;
+}
+
+.pagination { 
+    display: none;
+}
+
+.home-slide {
+    max-width: 1400px;
+    min-width: 960px;
+    height:733px;
+    overflow: hidden;
+    /*background: url('../Images/menu-background.png') no-repeat;*/
+}
+
+.home-slide.home-sassy {
+    background: url('../Images/sassycouple.png') center no-repeat;
+}
+
+.home-slide.home-sushi {
+    background: url('../Images/sushipr0n.png') center no-repeat;
+}
+
+.home-slide.home-boat {
+    background: url('../Images/boatlady.png') center no-repeat;
+}
 
 .next {
     z-index: 10;
