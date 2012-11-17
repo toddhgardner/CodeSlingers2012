@@ -1,1 +1,23 @@
-﻿
+﻿#connect .connect-container {
+	background: url("../images/connect-background.png") no-repeat scroll 0 0 transparent;
+	background-color: Green;
+	height: 853px;
+}
+
+#connect .title 
+{
+	color: #FFFFFF;
+    font-family: 'PacificoRegular';
+    font-size: 69px;
+    text-align: center;
+    padding-top:12px;
+}
+
+#connect .bubble
+{
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #666;
+	background-color: #BBB;
+}
