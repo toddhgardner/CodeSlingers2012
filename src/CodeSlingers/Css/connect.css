@@ -1,7 +1,12 @@
 ﻿#connect .connect-container {
 	background: url("../images/connect-background.png") no-repeat scroll 0 0 transparent;
-	background-color: Green;
-	height: 853px;
+	height: 705px;
+}
+
+#connect .bubble-container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
 }
 
 #connect .title 
@@ -15,9 +20,73 @@
 
 #connect .bubble
 {
-	margin: 10px;
-	width: 450px;
-	height: 100px;
-	border: 1px solid #666;
-	background-color: #BBB;
+	background: url("../images/tweet-background.png") no-repeat scroll 0 0 transparent;
+	color: #FFF;
+	width: 250px;
+	height: 230px;
+	padding: 43px 33px;
+	position: absolute;
+	text-align: center;
+	display: table;
+}
+
+#connect .bubble-inner
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#connect .bubble a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#connect .bubble a:hover
+{
+	text-decoration: underline;
+}
+
+#connect .bubble .text
+{
+	font-family: 'OpenSansRegular';
+	font-size: 18px;
+	line-height: 27px;
+}
+
+#connect .bubble .timestamp
+{
+	font-family: 'OpenSansBold';
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#connect .bubble.one 
+{
+	top: 111px;
+	left: 0px;	
+}
+
+#connect .bubble.two 
+{
+	top: 524px;
+	left: 50px;	
+}
+
+#connect .bubble.three 
+{
+	top: 256px;
+	left: 344px;	
+}
+
+#connect .bubble.four 
+{
+	top: 41px;
+	left: 655px;	
+}
+
+#connect .bubble.five 
+{
+	top: 475px;
+	left: 650px;	
 }

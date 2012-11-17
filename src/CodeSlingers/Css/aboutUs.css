@@ -80,4 +80,40 @@
     z-index: 9999;
 }
 
+#movie-player-overlay {
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    position:fixed;
+    opacity:0.5;
+    width:100%;
+    height:100%;
+    z-index:10000;
+    background-color:#000;
+}
+#movie-player-container {
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:10100;
+}
+#movie-player {
+    width: 825px;
+    height:425px;
+    margin:auto;
+    z-index:20000;
+    -webkit-box-shadow: 0px 0px 40px 10px ;
+    box-shadow: 0px 0px 40px 10px ; 
+}
+#movie-iframe {
+    width:100%;
+    height:100%;
+    border:none;
+}
+
 

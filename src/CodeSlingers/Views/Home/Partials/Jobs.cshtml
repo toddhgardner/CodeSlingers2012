@@ -1,5 +1,5 @@
 ﻿<div id="jobs" class="page">
-    <div class="shadow">            
+    <div class="shadow">
         <div class="jobs-content">
             <div class="picture1" data-2100="top:200px;" data-2600="top:-45px;">
             </div>
@@ -21,4 +21,65 @@
             </div>
         </div>
     </div>
+    <div id="jobs-modal-wrapper" style="display: none;">
+        <div id="jobs-modal-overlay"></div>
+        <div id="jobs-modal-container">
+        </div>
+    </div>
+    <div id="jobs-modal-template" style="display: none;">
+        <div class="jobs-modal">
+            <div class="title">Work With Us!</div>
+            <div class="subtitle" style="display: none;">Please confirm the fields in red!</div>
+            <form class="job-form" action="/jobs/" method="post">
+                <div style="width: 265px; float: left; margin-top: 30px;">
+                    <div>
+                        <input type="text" name="Name" placeholder="Who are you?" />
+                    </div>
+                    <div>
+                        <input type="text" name="Email" placeholder="What's your email?" />
+                    </div>
+                    <div>
+                        <textarea name="Resident" placeholder="Where do you live?"></textarea>
+                    </div>
+                    <div>
+                        <input type="text" name="PhoneNumber" placeholder="What's your number?" />
+                    </div>
+                </div>
+                <div style="width: 385px; float: left; margin-left: 32px; margin-top: 30px;">
+                    <div>
+                        <select name="Selection">
+                            <option value="">What's your favorite roll?</option>
+                            <option value="Spicy Tuna">Spicy Tuna</option>
+                            <option value="Spicy Salmon">Spicy Salmon</option>
+                            <option value="Snow Mountain">Snow Mountain</option>
+                            <option value="Rainbow">Rainbow</option>
+                            <option value="California">Calfornia</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Sushi
+                            <input type="radio" name="sushi" /></label><label>or Sake
+                                <input type="radio" name="sushi" /></label>
+                    </div>
+                    <div>
+                        <textarea placeholder="Tell us about yourself..." style="width:370px;" name="about"></textarea>
+                    </div>
+                    <div>
+                        <div class="upload">
+                            Drag your resume here to upload
+                        </div>
+                    </div>
+                    <div>
+                        <div style="margin-top: 40px; float: right;">
+                            <button class="apply-button submit-form" type="submit">Apply Now</button>&nbsp;&nbsp;
+                        <button class="cancel-button">Cancel</button>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="~/js/externals/jquery.validate.js"></script>
 </div>
