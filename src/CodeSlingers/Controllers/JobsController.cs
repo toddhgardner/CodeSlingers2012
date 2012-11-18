@@ -3,6 +3,7 @@ using RestSharp;
 using RestSharp.Deserializers;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -15,8 +16,16 @@ namespace CodeSlingers.Controllers
         //
         // POST: /Jobs/
         [HttpPost]
-        public JsonResult Index(Job job)
+        public JsonResult Index(Job job, HttpPostedFileBase file)
         {
+            if (file != null)
+            {
+                using (var reader = new StreamReader(file.InputStream))
+                {
+                    job.upload = reader.ReadToEnd();
+                }
+            }
+            
             var client = new RestClient("http://vermillion.howard.fusionroomdev.com");
             var request = new RestRequest("api/vermillion", Method.POST);
             request.RequestFormat = DataFormat.Json;

@@ -14,6 +14,6 @@ namespace CodeSlingers.Models
         public string About { get; set; }
         public string Resident { get; set; }
         public string Selection { get; set; }
-        public HttpPostedFileBase upload { get; set; }
+        public string upload { get; set; }
     }
 }
