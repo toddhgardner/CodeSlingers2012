@@ -145,6 +145,14 @@
     text-align:center;
 }
 
+.upload.hover {
+    background-color: #ccc;   
+}
+
+.upload.has-file {
+    /* fix me */
+}
+
  .cancel-button{
         width: 139px;
         height: 46px;
@@ -157,4 +165,28 @@
     }
 input.error, textarea.error {
     background-color:#fe6868;
+}
+
+#jobs .success {
+    color: #777777;
+    font-family: OpenSansRegular;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#jobs .success div {
+    padding: 6px;
+}
+
+#jobs .success button {
+    margin: 40px;
+            width: 139px;
+        height: 46px;
+        background: url(../images/jobs/applybutton.png) no-repeat transparent;
+        color: white;
+        font-family: BebasNeueRegular;
+        font-size: 24px;
+        text-shadow: 1px 2px 2px #333;
+        border: none;
 }
