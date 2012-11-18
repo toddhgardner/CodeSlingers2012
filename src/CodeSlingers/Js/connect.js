@@ -13,7 +13,8 @@
 		var allTweets = [];
 		$.each(data, function (index, tweetData) {
 			var tweet = {
-				createdDate: moment(tweetData.CreatedDate).fromNow(),
+				id: tweetData.Id_Str,
+				createdDate: moment(tweetData.Created_At).fromNow(),
 				text: tweetData.Text
 			};
 
@@ -28,9 +29,12 @@
 	};
 
 	var _renderTweet = function (tweetIndex, tweet) {
+		var tweetUrl = "https://twitter.com/GoodTimeSushi/status/" + tweet.id;
 		var selector = "#connect .bubble." + tweetIndex;
+
 		$(selector + " .text").text(tweet.text).urlToLink();
 		$(selector + " .timestamp").text("Posted " + tweet.createdDate);
+		$(selector + " .bubble-inner").attr("href", tweetUrl);
 	}
 
 	$.fn.urlToLink = function () {
