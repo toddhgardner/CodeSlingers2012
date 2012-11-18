@@ -121,6 +121,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Job.cs" />
+    <Compile Include="Models\Tweet.cs" />
+    <Compile Include="Models\TweetsWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -77,7 +77,7 @@
     height:110px;
     margin-top:-15px;
     position:relative;
-    z-index: 9999;
+    z-index: 9998;
 }
 
 #movie-player-overlay {

@@ -42,7 +42,7 @@
 	text-decoration: none;
 }
 
-#connect .bubble a:hover
+#connect .bubble .text a:hover
 {
 	text-decoration: underline;
 }
