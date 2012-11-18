@@ -94,7 +94,9 @@
                     regex: /^[a-zA-Z0-9 \.\-\_\!\?\,\;\:\"\'\(\)]*$/
                 }
             },
-            errorPlacement: function () {
+            errorPlacement: function () { },
+            invalidHandler: function () {
+                $("#jobs-modal-container .subtitle").show();
             },
             submitHandler: function (evt) {
                 if (!window.jobFile) {
