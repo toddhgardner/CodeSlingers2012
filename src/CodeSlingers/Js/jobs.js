@@ -105,7 +105,7 @@
                         type: 'post',
                         url: 'jobs',
                         data: form,
-                        success: formSuccess
+                        complete: formSuccess
                     });
                 } else {
                     var formData = new FormData($("#jobs-modal-container .job-form").get(0));
@@ -117,7 +117,7 @@
                         data: formData,
                         processData: false,
                         contentType: false,
-                        success: formSuccess
+                        complete: formSuccess
                     });
                 }
                 return false;

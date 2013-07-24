@@ -18,24 +18,30 @@ namespace CodeSlingers.Controllers
         [HttpPost]
         public JsonResult Index(Job job, HttpPostedFileBase file)
         {
-            if (file != null)
-            {
-                using (var reader = new StreamReader(file.InputStream))
+            this.Response.StatusCode = 400;
+            return this.Json(new
                 {
-                    job.upload = reader.ReadToEnd();
-                }
-            }
+                    Result = "You didn't say please"
+                }, JsonRequestBehavior.DenyGet);
             
-            var client = new RestClient("http://vermillion.howard.fusionroomdev.com");
-            var request = new RestRequest("api/vermillion", Method.POST);
-            request.RequestFormat = DataFormat.Json;
-            request.AddBody(job);
+            //if (file != null)
+            //{
+            //    using (var reader = new StreamReader(file.InputStream))
+            //    {
+            //        job.upload = reader.ReadToEnd();
+            //    }
+            //}
+            
+            //var client = new RestClient("http://vermillion.howard.fusionroomdev.com");
+            //var request = new RestRequest("api/vermillion", Method.POST);
+            //request.RequestFormat = DataFormat.Json;
+            //request.AddBody(job);
 
-            // execute the request
-            var response = client.Execute<Job>(request);
+            //// execute the request
+            //var response = client.Execute<Job>(request);
             
-            this.Response.StatusCode = (int) response.StatusCode;
-            return this.Json(response.Data, JsonRequestBehavior.DenyGet);
+            //this.Response.StatusCode = (int) response.StatusCode;
+            //return this.Json(response.Data, JsonRequestBehavior.DenyGet);
         }
     }
 }
